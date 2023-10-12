@@ -1,0 +1,36 @@
+h1 {
+    color: brown;
+}
+
+/* * {
+    border: solid;
+} */
+
+.header{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+p, h2 {
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex;
+    left: 100; 
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+body {
+    background-color: #808080;
+}
